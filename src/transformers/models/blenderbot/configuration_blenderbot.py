@@ -100,7 +100,7 @@ class BlenderbotConfig(PretrainedConfig):
     >>> # Initializing a Blenderbot facebook/blenderbot-3B style configuration
     >>> configuration = BlenderbotConfig()
 
-    >>> # Initializing a model from the facebook/blenderbot-3B style configuration
+    >>> # Initializing a model (with random weights) from the facebook/blenderbot-3B style configuration
     >>> model = BlenderbotModel(configuration)
 
     >>> # Accessing the model configuration
